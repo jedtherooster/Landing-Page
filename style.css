@@ -3,6 +3,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -33,6 +34,7 @@
     font-family: 'Roboto';
     font-size: 24px;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .navigation {
@@ -227,4 +229,15 @@
     align-items: center;
     cursor: pointer;
     margin-top: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    font-size: 12px;
 }
